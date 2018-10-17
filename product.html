@@ -6,28 +6,42 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>
-		<a href="indexmjata.html"><img src="image/logo.jpg"></a>
-	</h1>
-	<hr>
-	<a href="indexmjata.html">Главная</a>
-	<a href="product.html">Товары</a>
-	<a href="milo.html">Мыло</a>
-	<a href="bomba.html">Бомбочки</a>
-	<a href="bulm.html">Бальзамы</a>
-	<a href="news.html">Новости</a>
-	<hr>
+	<div class="header">
+		<div class="wrapper">
+			<h1>
+			<a href="indexmjata.html"><img src="image/logo.jpg"></a>
+			</h1>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="wrapper">
+			<ul>
+				<li>
+					<a href="indexmjata.html">Главная</a>
+				</li>
+					
+				<li>
+					<a href="product.html">Товары</a>
+				</li>
+			</ul>		
+		</div>
+	</div>
+        <div class="content">
+		<div class="wrapper">
 	<span>
 		<h2>Мыло ручной работы</h2>
 		<a href="milo.html"><img class="image" src="image/milo.jpg"></a>
 	</span>
-	<span>
-		<h2>Бомбочки для ванн</h2>
-		<a href="bomba.html"><img class="image" src="image/bomba.jpg"></a>
-	<span>
-		<h2>Бальзамы для губ</h2>
-		<a href="bulm.html"><img class="image" src="image/balm.jpg"></a>
-	</span>
+	<p>Для заказа мыла ручной работы заполните форму ниже</p>
+	<form method="post">
+		e-mail<br>
+		<input type="text" name="e-mail"><br>
+		Имя<br>
+		<input type="text" name="name"><br>
+		Телефон<br>
+		<input type="number" name="number"><br>
+		<input type="button" value="Отправить">
+	</form>	
 	<p>
 		<ul>
 			В состав наших уходовых средств входят:
@@ -40,7 +54,12 @@
 			<li>Пищевые красители</li>
 		</ul>
 	</p>
-	<hr>
-	&copy;Юлия Крижановская, 2018
+		</div>
+	</div>
+	<div class="footer">
+		<div class="wrapper">
+			&copy;Юлия Крижановская, 2018
+		</div>
+	</div>
 </body>
 </html> 
